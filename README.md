@@ -16,29 +16,26 @@ bem como a análise e validação dos seus dados.
 - Java Oracle JDK 21: (https://www.oracle.com/java/technologies/downloads/#java21)
 - Maven 3.9.9+: (https://maven.apache.org/download.cgi)
 
-### COMPILAÇÃO E EXECUÇÃO
+### EXECUÇÃO
 
 #### BAIXAR A APLICAÇÃO
 
-- Via HTTPS
+- Se quiser baixar o código para avaliar a estrutura do projeto, 
+basta executar a seguinte linha de comando.
 ```shell script
 git clone https://github.com/david-nazare/gestao-triagem.git
 ```
-- Via SSH
-```shell script
-git clone git@github.com:david-nazare/gestao-triagem.git
-```
+- Se o intuito for só executar a aplicação, basta baixar o arquivo
+executável que se encontra na raíz do repositório, 
+gestao-triagem-0.0.1.jar
 
-#### COMPILAR E EXECUTAR
+#### EXECUTAR A APLICAÇÃO
 
-- Compilando a aplicação utilizando o Maven
+- Para executar o binário, basta executar a seguinte linha de comando
 ```shell script
-mvn clean install
+java -jar gestao-triagem-0.0.1.jar
 ```
-- Rodando a aplicação utilizando o Spring
-```shell script
-mvn spring-boot:run
-```
+Feito isso, basta aguardar alguns segundos até a aplicação estar no ar
 
 ### TESTAR A APLICAÇÃO
 

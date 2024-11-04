@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.carrerexpansion</groupId>
 	<artifactId>gestao-triagem</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>gestao-triagem</name>
 	<description>Serviço de gestão do formulário de triagem</description>
 	<url/>
