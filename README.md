@@ -39,6 +39,13 @@ Feito isso, basta aguardar alguns segundos até a aplicação estar no ar
 
 ### TESTAR A APLICAÇÃO
 
+#### SWAGGER
+
+O Swagger da aplicação pode ser acessado através da seguinte URL:
+```shell script
+http://localhost:8080/swagger-ui.html
+```
+
 #### PREENCHER TRIAGEM
 
 No Postman, através do verbo POST, utilizar o seguinte endereço:
